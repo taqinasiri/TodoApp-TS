@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "name": "code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },"scripts": {
+    "dev" : "tsc -w",
+    "tailwind" :  "npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch"
+  }
+}

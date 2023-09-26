@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="dist/css/output.css">
+</head>
+
+<body class="bg-gradient-to-l from-slate-900 to-blue-950 text-white">
+    <div class="flex justify-center items-center h-screen">
+    <div class="bg-indigo-800 p-3 rounded-md w-72">
+        <header class="font-black">Todo App</header>
+        <div class="mt-2 flex justify-center gap-1">
+            <input type="text" placeholder="Todo..." id="todo-input" class="bg-indigo-500 rounded-md px-2 py-1"/>
+            <button id="add-btn" class="bg-indigo-600 rounded-md w-full font-black">+</button>
+        </div>
+        <ul id="todolist" class="todoList">
+            <!-- data are comes from local storage -->
+        </ul>
+        <div class="mt-3">
+            <button id="clear-btn" type="button" class="bg-indigo-600 rounded-md w-full font-black p-2">Clear All</button>
+        </div>
+    </div>
+</div>
+    <script src="dist/todolist.js"></script>
+</body>
+
+</html>

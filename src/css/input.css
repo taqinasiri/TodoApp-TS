@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.remove-btn{
+    @apply bg-pink-700 rounded-full w-8 h-full flex items-center justify-center cursor-pointer p-1;
+}
+.todo-item{
+    @apply bg-indigo-400 rounded-md mt-2 py-1 px-2 flex justify-between items-center;
+}
